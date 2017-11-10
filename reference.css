@@ -1,0 +1,81 @@
+.pagetitle {
+	background-color: gray;
+	text-align: center;
+	border: 5px darkgray;
+	border-style: solid;
+	font-family: helvetica;
+	font-size:55px;
+	color: white;
+	text-shadow: 4px 3px black;
+}
+img {
+	display: block;
+  margin: auto;
+}
+.bgcolor {
+	background-color: lightgray;
+}
+.header {
+	background-color: #4CAF50;
+	text-align: center;
+	border-left: 6px solid darkgreen;
+	border-right: 6px solid darkgreen;
+	color: white;
+	text-shadow: 3px 2px black;
+	font-family: verdana;
+}
+.link {
+	background-color: #b2b7c1;
+	border: 2px solid darkgray;
+	padding: 3px;
+}
+.paragraph {
+	background-color: white;
+	padding-left: 5px;
+	border-left: 5px solid gray;
+	margin-left: 15px;
+}
+/* TABLE STUFF XD */
+table, th, td {
+    border: 2px solid #6d7075;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: verdana;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-shadow: 3px 2px black;
+    font-size: 17px;
+    font-family: verdana;
+}
+/* LINKS :D */
+/* unvisited link */
+a:link {
+    color: darkgreen;
+}
+
+/* visited link */
+a:visited {
+    color: darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkgreen;
+}
+
+/* selected link */
+a:active {
+    color: darkgreen;
+}
+
