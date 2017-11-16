@@ -76,3 +76,10 @@ body {
     padding: 10px;
     text-align: center;
 }
+html { 
+  background: url(https://orig00.deviantart.net/6fb4/f/2015/336/7/b/blue_sky_by_eucosdum-d9iral4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
