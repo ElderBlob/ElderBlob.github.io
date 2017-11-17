@@ -1,3 +1,27 @@
+/* TABLE STUFF XD */
+table, th, td {
+    border: 2px solid #6d7075;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: verdana;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-shadow: 3px 2px black;
+    font-size: 17px;
+    font-family: verdana;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -54,28 +78,6 @@ body {
     padding: 10px;
     text-align: center;
 }
-/* TABLE STUFF XD */
-table, th, td {
-    border: 2px solid #6d7075;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-family: verdana;
-}
-th, td {
-    text-align: left;
-    padding: 8px;
-}
 
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-    background-color: #4CAF50;
-    color: white;
-    text-shadow: 3px 2px black;
-    font-size: 17px;
-    font-family: verdana;
-}
 
 
