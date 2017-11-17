@@ -1,3 +1,11 @@
+html { 
+  background: url(http://m.rgbimg.com/cache1wv5vd/users/x/xy/xymonau/600/oAdqKAu.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 table, th, td {
     border: 2px solid #6d7075;
 }
