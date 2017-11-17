@@ -55,7 +55,6 @@ body {
     text-align: center;
 }
 }
-/* TABLE STUFF XD */
 table, th, td {
     border: 2px solid #6d7075;
 }
@@ -77,24 +76,4 @@ th {
     text-shadow: 3px 2px black;
     font-size: 17px;
     font-family: verdana;
-}
-/* LINKS :D */
-/* unvisited link */
-a:link {
-    color: darkgreen;
-}
-
-/* visited link */
-a:visited {
-    color: darkgreen;
-}
-
-/* mouse over link */
-a:hover {
-    color: darkgreen;
-}
-
-/* selected link */
-a:active {
-    color: darkgreen;
 }
