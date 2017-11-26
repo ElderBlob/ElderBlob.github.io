@@ -1,41 +1,17 @@
-.pagetitle {
-	background-color: gray;
-	text-align: center;
-	border: 5px darkgray;
-	border-style: solid;
-	font-family: helvetica;
-	font-size:55px;
-	color: white;
-	text-shadow: 4px 3px black;
+p {
+    outline: #ff0000 solid 1px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
 }
-img {
-	display: block;
-  margin: auto;
+html { 
+  background: url(http://www.colourlovers.com/img/E8E8EE/130/110/Very_light_grey.png?ic=1) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.bgcolor {
-	background-color: lightgray;
-}
-.header {
-	background-color: #4CAF50;
-	text-align: center;
-	border-left: 6px solid darkgreen;
-	border-right: 6px solid darkgreen;
-	color: white;
-	text-shadow: 3px 2px black;
-	font-family: verdana;
-}
-.link {
-	background-color: #b2b7c1;
-	border: 2px solid darkgray;
-	padding: 3px;
-}
-.paragraph {
-	background-color: white;
-	padding-left: 5px;
-	border-left: 5px solid gray;
-	margin-left: 15px;
-}
-/* TABLE STUFF XD */
+
 table, th, td {
     border: 2px solid #6d7075;
 }
@@ -52,30 +28,66 @@ th, td {
 tr:nth-child(even){background-color: #f2f2f2}
 
 th {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     text-shadow: 3px 2px black;
     font-size: 17px;
     font-family: verdana;
 }
-/* LINKS :D */
-/* unvisited link */
-a:link {
-    color: darkgreen;
+
+* {
+    box-sizing: border-box;
 }
 
-/* visited link */
-a:visited {
-    color: darkgreen;
+body {
+  margin: 0;
 }
-
-/* mouse over link */
-a:hover {
-    color: darkgreen;
+.header {
+    background-color: ##FF0000;
+    padding: 20px;
+    text-align: center;
 }
-
-/* selected link */
-a:active {
-    color: darkgreen;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
 }
-
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+#activepage {
+    background-color: #ff0000;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
